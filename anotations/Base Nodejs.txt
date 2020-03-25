@@ -1,0 +1,22 @@
+Métodos HTTP
+GET(Capturar registro), POST(Criar registro)
+PUT(Alterar registro), DELETE(Remover registro)
+
+Tipos de parâmetros
+
+Query Params: request.query (Filtros, ordenação, paginação, ...)  Visíveis na URL
+Route Params: request.params (Identificar um recurso na alteração ou remoção) visível na url
+Body: request.body (Dados para criação ou alteração de um registro)
+
+MongoDB (Não-relacional)
+
+Funções do controlador
+
+Index - Mostrar lista
+Show - Mostrar unidade
+Store - Criar unidade
+Update - Alterar unidade
+Destroy - Deletar unidade
+
+Operadores do mongoBD
+https://docs.mongodb.com/manual/reference/operator/query/

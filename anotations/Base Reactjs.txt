@@ -1,0 +1,12 @@
+Abordagem tradicional front-end
+O servidor retorna todo conteúdo HTML e CSS da página a cada requisição. 
+Limita o front-end para o browser e não pode ser aplicado no mobile.
+
+Abordagem SPA (Single-Page Application)
+O servidor retorna somente os dados como resposta a cada requisição,
+cabe ao front-end preencher as informações em tela
+A página não recarrega otimizando a performance toda a comunicação é feita por JSON
+
+Criando projeto react
+yarn create-react-app "directory"
+
