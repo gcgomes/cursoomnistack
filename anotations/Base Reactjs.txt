@@ -8,8 +8,8 @@ cabe ao front-end preencher as informações em tela
 A página não recarrega otimizando a performance toda a comunicação é feita por JSON
 
 Criando projeto react
-- npx create-react-app "directory"
-- npm start
+> npx create-react-app "directory"
+> npm start
 
 HTMl no arquivo JS é conhecido como JSX (JavaScript e XML)
 
@@ -31,3 +31,9 @@ esse método retorna Array [valor, funcaodeAtualizacao]
 Imutabilidade
 Não é possível manipular o valor do estado de forma direta, é necessário
 utilizar a funcaoDeAtualizacao do useState
+
+Imports
+
+> npm install react-icons
+> npm install react-router-dom
+> npm install axios
