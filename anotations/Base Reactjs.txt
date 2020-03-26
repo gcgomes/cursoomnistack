@@ -8,5 +8,5 @@ cabe ao front-end preencher as informações em tela
 A página não recarrega otimizando a performance toda a comunicação é feita por JSON
 
 Criando projeto react
-yarn create-react-app "directory"
+npx create-react-app "directory"
 
