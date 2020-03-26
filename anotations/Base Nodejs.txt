@@ -1,14 +1,39 @@
 Métodos HTTP
-GET(Capturar registro), POST(Criar registro)
-PUT(Alterar registro), DELETE(Remover registro)
+GET(Buscar uma informação),
+POST(Criar uma informação),
+PUT(Alterar uma informação),
+DELETE(Remover uma informação)
 
 Tipos de parâmetros
 
-Query Params: request.query (Filtros, ordenação, paginação, ...)  Visíveis na URL
-Route Params: request.params (Identificar um recurso na alteração ou remoção) visível na url
-Body: request.body (Dados para criação ou alteração de um registro)
+Query Params: request.query (Filtros, ordenação, paginação, ...)  Visíveis na URL (Método GET)
+Route Params: request.params (Identificar um recurso na alteração ou remoção) visível na url (Métodos GET, PUT e DELETE)
+Body Request: request.body (Dados para criação ou alteração de um registro) (Método POST)
+Header Request: request.header (Dados de usuários autenticados, dados de localização)
 
-MongoDB (Não-relacional)
+Banco de dados: SQLite (Relacional)
+Query Builder: Knex.js
+Passos
+- npm install knex
+- npm install sqlite3
+- npx knex init
+- Associar o arquivo de dados no knexfile.js
+- Configurar migrations
+    - Associar o diretório de migrations no knexfile.js com useNullAsDefault: true
+    - npx knex migrate:make migration_name
+- npx knex migrate:latest para rodar a migrate
+- npx knex migrate:rollback para desfazer a migrate
+
+Entidades (Modelos)
+- ONGs
+- Casos (incidents)
+
+Funcionalidades
+- Login/Logout e Cadastro de ONGs
+- CRUD de casos
+- Listagem de casos
+- Listagem de casos por ONG
+- Contato com ONG (Whatsapp e email)
 
 Funções do controlador
 
@@ -17,6 +42,3 @@ Show - Mostrar unidade
 Store - Criar unidade
 Update - Alterar unidade
 Destroy - Deletar unidade
-
-Operadores do mongoBD
-https://docs.mongodb.com/manual/reference/operator/query/

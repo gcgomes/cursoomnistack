@@ -1,12 +1,18 @@
 const { Router } = require('express');
-const DevController = require('./controllers/DevController')
-const SearchController = require('./controllers/SearchController')
+const OngController = require('./controllers/OngController');
+const IncidentController = require('./controllers/IncidentController');
+const AuthController = require('./controllers/AuthController');
 
 const routes = Router();
 
-routes.get('/devs', DevController.index);
-routes.post('/devs', DevController.store);
+routes.post('/login', AuthController.create);
 
-routes.get('/search', SearchController.index);
+routes.get('/ongs', OngController.index);
+routes.post('/ongs', OngController.store);
+
+routes.get('/incidents', IncidentController.index);
+routes.get('/ong-incidents', IncidentController.indexByOng);
+routes.post('/incidents', IncidentController.create);
+routes.delete('/incidents/:id', IncidentController.destroy);
 
 module.exports = routes;
