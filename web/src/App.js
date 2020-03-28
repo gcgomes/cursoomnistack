@@ -2,12 +2,10 @@ import React from 'react';
 
 import './global.css';
 
-import Routes from './routes'
+import Routes from './routes';
 
-function App() {
+export default function App() {
   return (
       <Routes />
   );
 }
-
-export default App;

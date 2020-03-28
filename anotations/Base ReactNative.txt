@@ -14,3 +14,14 @@ celular e ele já possui tudo que é necessário para o desenvolvimento
 
 > npm install -g expo-cli
 > expo init "directory"
+> yarn start
+> npm install @react-navigation/native
+> expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+> npm install @react-navigation/stack
+> npm install expo-constants
+> expo install expo-mail-composer
+
+Estilização
+- Os componentes são padronizados com display flex (flexbox)
+- As propriedades são em camelCase e os valores não numéricos possuem aspas simples
+- Não existe herança de estilos, os elementos devem ter uma estilização própria
