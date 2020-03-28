@@ -3,7 +3,7 @@ Criamos uma aplicação pra iOS e outra para Android, repetindo
 o trabalho durante a criação e para as alterações do projeto.
 
 Abordagem React Native
-Todo código é feito em JS, o código não é convertido para código nativo,
+Todos código é feito em JS, o código não é convertido para código nativo,
 o dispositivo entende o código em JS e a interface é totalmente nativa.
 Utiliza um framework chamado JSCore que dá o entendimento do JS pro OS Mobile.
 
@@ -11,3 +11,6 @@ Expo
 Framework para ReactNative para utilizar as funcionalidades do celular,
 como Camera, Mapa, GeoLocalização, etc... O expo é instalado em nosso
 celular e ele já possui tudo que é necessário para o desenvolvimento
+
+> npm install -g expo-cli
+> expo init "directory"
