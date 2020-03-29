@@ -2,7 +2,7 @@ Validações Backend
 > npm install celebrate
 
 Tests Backend
-TDD (Test Driven Development)
+TDD (Test-driven Development)
 Primeiro é criado os testes, depois os códigos, o teste funciona como
 um guia para o programador e valida as regras de negócio
 > npm install jest -D
