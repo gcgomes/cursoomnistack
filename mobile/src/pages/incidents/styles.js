@@ -48,6 +48,12 @@ export default StyleSheet.create({
     marginBottom: 16,
   },
 
+  incidentHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+
   incidentProperty: {
     fontSize: 14,
     color: '#41414d',
