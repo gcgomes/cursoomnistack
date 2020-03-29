@@ -34,3 +34,9 @@ Deploy Frontend
 
 Mobile
 > Gerar apk com expo - Vídeo da Rocketseat Core/Drops #15
+
+Estudos Futuros
+Padrão de código ESLint - Vídeo no YT da RS
+Padrão de código Prettier - Vídeo no YT da RS
+Autenticação JWT - Vídeo no YT da RS
+Styled Componets - Vídeo no YT da RS
