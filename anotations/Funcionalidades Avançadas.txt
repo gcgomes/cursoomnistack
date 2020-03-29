@@ -1,3 +1,24 @@
-Backend
-- Validações
-    > npm install celebrate
+Validações Backend
+> npm install celebrate
+
+Tests Backend
+TDD (Test Driven Development)
+Primeiro é criado os testes, depois os códigos, o teste funciona como
+um guia para o programador e valida as regras de negócio
+> npm install jest -D
+> npx jest --init (yes, node, no, yes)
+-Tipos de testes
+    - Unitários: Testa um pedaço da aplicação de forma isolada, não mexe
+                 com banco de dados, não chama uma outra API, sem side effects
+    - Integração: Testam um fluxo de rota ou funcionalidade inteira da aplicação
+                  diferente dos unitários, possuem side effects.
+Para executar os testes
+> npm test
+
+Cria uma variável ambiente pra diferenciar ambientes (produção, teste, desenvolvimento)
+> npm install cross-env
+
+Para requisições da api
+> npm install supertest -D
+
+Para setar header com o supertest, utiliza-se a função set().
