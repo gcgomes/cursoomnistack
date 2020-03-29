@@ -1,0 +1,3 @@
+Backend
+- Validações
+    > npm install celebrate
